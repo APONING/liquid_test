@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_first"
+        android:icon="@drawable/ic_first"
+        android:title="权限检测" />
+
+    <item
+        android:id="@+id/navigation_second"
+        android:icon="@drawable/ic_second"
+        android:title="录音" />
+
+    <item
+        android:id="@+id/navigation_third"
+        android:icon="@drawable/ic_third"
+        android:title="上传文件" />
+</menu>

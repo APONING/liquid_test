@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:hint="权限检测"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:background="@drawable/edit_text_background"
+        android:layout_margin="20dp" />
+
+    <EditText
+        android:id="@+id/tv_permission_status1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:hint="请输入文字"
+        android:textSize="30sp"
+        android:background="@drawable/permiss01"
+        android:layout_margin="20dp" />
+    <EditText
+        android:id="@+id/tv_permission_status2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:hint="请输入文字"
+        android:textSize="30sp"
+        android:background="@drawable/permiss02"
+        android:layout_margin="20dp" />
+    <EditText
+        android:id="@+id/tv_permission_status3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:hint="请输入文字"
+        android:textSize="30sp"
+        android:background="@drawable/permiss03"
+        android:layout_margin="20dp" />
+
+
+</LinearLayout>
